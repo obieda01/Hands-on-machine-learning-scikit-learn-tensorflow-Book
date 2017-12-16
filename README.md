@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Machine Learning Notebooks
 ==========================
 
@@ -106,7 +105,3 @@ This should open up your browser, and you should see Jupyter's tree view, with t
 Note: you can also visit [http://localhost:8888/nbextensions](http://localhost:8888/nbextensions) to activate and configure Jupyter extensions.
 
 Congrats! You are ready to learn Machine Learning, hands on!
-=======
-# Hands-on-machine-learning-scikit-learn-tensorflow-Book
-Based on "Hands-On Machine Learning with Scikit-Learn &amp; TensorFlow" (O'Reilly, Aurelien Geron). A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in python using Scikit-Learn and TensorFlow.
->>>>>>> 0ddeaf238b41c1e47f9f2606078e700dd7b24b0a
