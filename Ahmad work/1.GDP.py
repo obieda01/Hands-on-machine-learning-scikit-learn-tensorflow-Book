@@ -5,8 +5,9 @@ import pandas as pd
 import sklearn
 
 #load data
-oecd_bli=pd.read_csv("oecd_bli_2015.cvs",thousands=',')
-gdp_per_capita=pd.read_csv("gdp_per_capita.csv",thousands=',',delimiter='\t',encoding='latin1',na_values='n/a')
+oecd_bli=pd.read_csv("C:\Deep Learning Course\handson-ml-master\github\datasets\lifesat\oecd_bli_2015.csv",thousands=',')
+gdp_per_capita=pd.read_csv("C:\Deep Learning Course\handson-ml-master\github\datasets\lifesat\gdp_per_capita.csv"
+                    ,thousands=',',delimiter='\t',encoding='latin1',na_values='n/a')
 
 
 #prepare the data 
@@ -23,3 +24,8 @@ model=sklearn.linear_model.LinearRegression()
 
 #Train the model
 model.fit(x,y)
+
+
+#Make a prediction for Cyprus
+X_new=[[22587]]
+print(model.predict(X_new))
